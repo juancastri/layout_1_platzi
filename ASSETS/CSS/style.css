@@ -1,0 +1,116 @@
+@media screen and (min-width:300px) and (max-width:481px){
+    .aside-main{
+        width: 100vw;
+        height: 100vh;
+    }
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+header {
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 100%;
+}
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-header figure{
+    display: inline-block;
+    margin: 2.6rem;
+}
+.nav-header__list {
+    display: inline-block;
+    list-style: none;
+}
+.nav-header__item {
+    display: inline-block;
+    margin: 2rem 1rem;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.938);
+    border-radius: 2rem;
+}
+.nav-header__item a {
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+.nav-header li:hover {
+    background-color: #2FF1FA;
+}
+.nav-header a:active {
+    color: red;
+}
+main {
+    display: flex;
+}
+.aside-main {
+    display: inline-block;
+    width: auto;
+    min-width: 350px;
+    height: 100%;
+    background-image: url("https://images.pexels.com/photos/1061623/pexels-photo-1061623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 1.8rem;
+    margin-bottom: 1rem;
+}
+.aside_main__item {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 6rem;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.178);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.aside_main__item:hover{
+    background-color: rgba(19, 18, 18, 0.637);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+.text-main {
+    padding: 2rem;
+    display: flex;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.089);
+    margin: 10px 10px;
+}
+.text-main p {
+    font-size: 1.6rem;
+}
+footer{
+    padding-right: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 80px;
+    background-color: rgba(128, 128, 128, 0.466);
+}
+footer p {
+    font-size: 1.6rem;
+}
+.container-footer {
+    display: flex;
+    column-gap: 40px;
+}
+.container-footer a {
+    text-decoration: none;
+    display: flex;
+    padding: 20px 10px;
+    border-radius: 50%;
+}
+.container-footer a:hover {
+    background-color: #fff;
+}
+.container-footer a i {
+    color: black;
+}
